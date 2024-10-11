@@ -1,0 +1,9 @@
+#main_canvas {
+    width: 100%;             /* Make the width responsive */
+    height: auto;            /* Allow the height to scale automatically */
+    aspect-ratio: 1;         /* Maintain a 1:1 aspect ratio (square) */
+    display: block;          /* Remove inline-block spacing issues */
+    margin: auto;            /* Center the canvas horizontally */
+    max-height: 100vh;      /* Optional: limit the height to the viewport height */
+	border: 2px solid black
+}
